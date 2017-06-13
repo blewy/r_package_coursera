@@ -8,7 +8,6 @@ export(fars_map_state)
 importFrom(readr,read_csv)
 importFrom(dplyr,tbl_df,mutate,select,bind_rows,summarize,filter)
 importFrom(tidyr,spread)
-#importFrom(matrittr,%>%)
-
+importFrom(magrittr,"%>%")
 importFrom(maps,map)
 importFrom(graphics,points)
