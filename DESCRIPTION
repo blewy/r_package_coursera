@@ -1,0 +1,14 @@
+Package: masterSDR
+Title: Plot NHTSA data -  This package implements a group of functions necessary com reading and storing data
+Version: 0.0.1
+Authors@R: person("João", "Santos", email = "not@gmail.com", role = c("aut", "cre"))
+Description: This a part of an exercise in the week 4 assignment of Cousera course Building R Packages
+    maps
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat,knitr,rmarkdown,
+VignetteBuilder: knitr
+Imports: readr,dplyr,tidyr,maps,graphics,magrittr
+URL: https://github.com/blewy/r_package_coursera
+RoxygenNote: 6.0.1

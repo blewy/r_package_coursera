@@ -1,0 +1,31 @@
+---
+title: "package_Vignettes"
+author: "Filipe Santos"
+date: "6/11/2017"
+output: pdf_document
+---
+
+
+# Information
+This is just a mock package for week 4 assignment of Cousera course Building R Packages
+It contoins a series of functions that where documented and tested to be deployed
+ as a package.
+ 
+The main objectives are:
+ 
+- write a vignette to include in your package using knitr and R Markdown
+- write at least one test written using testthat
+- put your package on GitHub
+- set up the repository so that the package can be checked and built on Travis
+- Once your package has built on Travis and the build is passing with no errors, warnings, or notes you should add your Travis badge to the README.md file of your package repository.
+
+## Functions Descriptions:
+
+- **fars_read** : This is a simple function that reads data from a .csv file into a data.frame using **dplyr** *tbl_df*.
+- **make_filename** : Help function to create a file name string
+
+- **fars_read_years**  : Iteractive function that enables the user to read multiple .csv files from a range of years. It will read a group of files on the same folder changing the year inside a range that was defined by the user
+
+- **fars_summarize_years** : Iteractive function that enable obtain the statistics from multiple .csv files from a range of years. It will read a group of files, row_bind all the data into one data.frame and them compute statistics from the final data set.
+
+- **fars_map_state**  : Function that enables to obtain the statistics from .csv files from specific year and US State and plot on a map the number of acidents per geographical location. It will read a group of files, select specific states, filter the imported data and plot the counts on a map using longitude and latitude.

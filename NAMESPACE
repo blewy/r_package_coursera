@@ -1,0 +1,14 @@
+#exportPattern("^[[:alpha:]]+")
+
+#export("fars_read")
+#export("make_filename")
+#export("fars_read_years")
+#export("fars_summarize_years")
+export(fars_map_state)
+importFrom(readr,read_csv)
+importFrom(dplyr,tbl_df,mutate,select,bind_rows,summarize,filter)
+importFrom(tidyr,spread)
+#importFrom(matrittr,%>%)
+
+importFrom(maps,map)
+importFrom(graphics,points)

@@ -1,0 +1,23 @@
+---
+title: "README"
+author: "Filipe Santos"
+date: "6/11/2017"
+output: rmarkdown::html_vignette
+
+---
+
+
+# Information
+This is just a mock package for week 4 assignment of Cousera course Building R Packages
+It contoins a series of functions that where documented and tested to be deployed
+ as a package.
+ 
+The main objectives are:
+ 
+- write a vignette to include in your package using knitr and R Markdown
+- write at least one test written using testthat
+- put your package on GitHub
+- set up the repository so that the package can be checked and built on Travis
+- Once your package has built on Travis and the build is passing with no errors, warnings, or notes you should add your Travis badge to the README.md file of your package repository.
+
+[![Travis-CI Build Status](https://travis-ci.org/blewy/r_package_coursera.svg?branch=master)](https://travis-ci.org/blewy/r_package_coursera)
