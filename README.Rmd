@@ -21,3 +21,5 @@ The main objectives are:
 - Once your package has built on Travis and the build is passing with no errors, warnings, or notes you should add your Travis badge to the README.md file of your package repository.
 
 [![Travis-CI Build Status](https://travis-ci.org/blewy/r_package_coursera.svg?branch=master)](https://travis-ci.org/blewy/r_package_coursera)
+
+[![Travis-CI Build Status](https://travis-ci.org/blewy/r_package_coursera.svg?branch=master)](https://travis-ci.org/blewy/r_package_coursera)
